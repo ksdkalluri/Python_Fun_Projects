@@ -20,5 +20,5 @@ for item in data['list']['resources']:
     print(name, price)
     usd_rates[name] = price
 
-print(usd_rates['USD/'+f'{input1}'])
+print(usd_rates['USD/'+input1])
 
